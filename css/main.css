@@ -179,4 +179,47 @@ footer span {
 	font-size: 14px;
 }
 
+@media all and (min-width:768px) {
+	/*Tablet styles here */
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-flow: row nowrap;
+	}
 
+.section-one, .section-three{
+	padding: 0 10px;
+}
+
+.section-two {
+	padding: 0 20px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+}
+
+@media all and (min-width: 1200px) {
+	
+header {
+	justify-content: space-between;
+}
+
+header h1 {
+	width: 30%;
+	padding: 0;
+	border-bottom: none;
+	text-align: left;
+}
+
+header nav {
+	width: 50%;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+}
